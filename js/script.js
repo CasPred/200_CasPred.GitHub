@@ -1,4 +1,4 @@
-fetch('json/images.json').then(function(response) {
+fetch('JSON/images.json').then(function(response) {
     response.json().then(function(json) {
   
       var header = document.getElementById('header');
